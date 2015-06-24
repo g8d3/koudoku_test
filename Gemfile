@@ -43,5 +43,8 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'slim-rails'
 gem 'devise'
 gem 'koudoku'
+gem 'quiet_assets'
+gem 'pry-rails'

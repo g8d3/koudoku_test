@@ -1,0 +1,5 @@
+h1 Test
+p= ENV['STRIPE_PUBLISHABLE_KEY']
+p= ENV['STRIPE_SECRET_KEY']
+p= link_to 'Pricing', main_app.pricing_path
+p= if current_user then link_to 'subs', koudoku.owner_subscriptions_path(current_user)
