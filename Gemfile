@@ -45,7 +45,7 @@ end
 
 gem 'slim-rails'
 gem 'devise'
-gem 'koudoku'
+gem 'koudoku', github: 'juanpastas/koudoku', branch: 'v1.1.2-with-sources-patch'
 gem 'quiet_assets'
 gem 'pry-rails'
 gem 'figaro'

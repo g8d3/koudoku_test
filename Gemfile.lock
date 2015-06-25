@@ -1,3 +1,14 @@
+GIT
+  remote: git://github.com/juanpastas/koudoku.git
+  revision: 2089740ed29125efc10b9b9ddb3bccc214c426bd
+  branch: v1.1.2-with-sources-patch
+  specs:
+    koudoku (1.1.2)
+      bluecloth
+      rails
+      stripe
+      stripe_event
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -80,11 +91,6 @@ GEM
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     json (1.8.3)
-    koudoku (1.1.2)
-      bluecloth
-      rails
-      stripe
-      stripe_event
     loofah (2.0.2)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
@@ -207,7 +213,7 @@ DEPENDENCIES
   figaro
   jbuilder (~> 2.0)
   jquery-rails
-  koudoku
+  koudoku!
   pry-rails
   quiet_assets
   rails (= 4.2.2)
